@@ -1,0 +1,87 @@
+form{
+    width: 400px;
+    height: 350px;
+    background-color: #f5b60a93;
+    border: 1px solid #f5b70a;
+    background: linear-gradient(rgb(0, 13, 107, 0.1), rgb(0, 13, 107, 0.3)),
+    /* url("../assets/images/about2.avif"); */
+    url("../assets/images/contact-us-background-vector-2642881-removebg-preview (1).png");
+}
+.fe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    justify-content: center;
+    align-items: center;
+height: 70px;
+
+}
+.frm{
+padding: 20px;
+}
+.address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+}
+.text{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 300px;
+    font-size: 1rem;
+    height: 70px;
+}
+.label{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 300px;
+    height: 30px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+.label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+   margin-left: 10px;
+   color:#fff;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-size: 1rem;
+    height: 30px;
+    color: white;
+    padding: 0 10px;
+    background: #f5b60ab8;
+}
+.bn{
+  margin-top:1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:410px) {
+    form{
+        width: 300px;
+    }
+}
+@media screen and (max-width:300px) {
+    form{
+        width: 230px;
+        margin-left: 30px;
+        height: 350px;
+    }
+    .left{
+        margin-left: 0px;
+    }
+}

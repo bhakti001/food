@@ -1,0 +1,35 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.imgds{
+    width: 100%;
+}
+.aboutptitle{
+    font-size: 2rem;
+    color: #f5b70a;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.textabout{
+font-size: 1.3rem;
+}
+@media screen and (max-width:550px) {
+    .about{
+        display: block;
+        margin-top: 200px;
+    }
+    .aboutptitle{
+        margin-top: 20px;
+    }
+    .textabout{
+        font-size: 1.1rem;
+    }
+}

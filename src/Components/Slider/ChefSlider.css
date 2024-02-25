@@ -1,0 +1,31 @@
+.product-carousel{
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+}
+.product-container{
+    padding: 0 10px;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.pre-btn , .next-btn{
+    border: none;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.next-btn{
+    right: 0;
+}
+.pre-btn p ,.next-btn p {
+    font-size: 2rem;
+    background-color: lightgrey;
+    padding: 5px;
+    border-radius: 10px;
+}

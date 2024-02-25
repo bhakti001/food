@@ -1,0 +1,129 @@
+.slider__item {
+    max-width: 100%;
+    height: 650px;
+  }
+  
+  .slider__item-01 {
+    background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
+      url("../assets/images/background2.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .slick-slide div{
+    margin: 0px;
+  }
+  .slider__item-02 {
+    background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
+      url("../assets/images/background1.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .slider__item-03 {
+    background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
+      url("../assets/images/background4.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .hero__slider {
+    overflow: hidden;
+  }
+  
+  .slider__content {
+    padding-top: 250px;
+  }
+  
+  .slider__content h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+  }
+  
+  .reserve__btn {
+    color: #000d6b !important;
+    border: none;
+    outline: none;
+  }
+  
+  .reserve__btn a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000d6b;
+  }
+  
+  .reserve__btn:hover {
+    background: #ffffff !important;
+    color: #fff;
+  }
+  .btn{
+    padding: 10px;
+    font-size: 1.8rem;
+    border-radius: 5rem;
+    background-color: #f5b70a;
+  }
+  .reserve__btn {
+    background:#f5b70a;
+  }
+  @media only screen and (max-width: 992px) {
+    .slider__item {
+      min-height: 530px;
+      max-height:530px ;
+      max-width: 100vw;
+    }
+  
+    .slider__content {
+      margin-top: -50px;
+    }
+  
+    .slider__content h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .slider__item {
+      height: 450px;
+    }
+  
+    .slider__content h1 {
+      font-size: 1.5rem;
+    }
+    .btn{
+        padding: 8px;
+        font-size: 1.4rem;
+      }
+  }
+  @media only screen and (max-width: 430px) {
+    .slider__item {
+        overflow: hidden;
+     min-height:400px;
+     max-height:400px;
+    }
+  
+    .slider__content h1 {
+      font-size: 1.5rem;
+    }
+    .btn{
+        padding: 8px;
+        font-size: 1.2rem;
+      }
+    
+  }
+  @media only screen and (max-width: 270px) {
+    .slider__item {
+        overflow: hidden;
+     min-height:550px;
+     max-height:550px;
+    }
+    .btn{
+        padding: 5px;
+        font-size: 1.3rem;
+      }
+    .slider__content h1 {
+      font-size: 1.2rem;
+    }
+  }
+  

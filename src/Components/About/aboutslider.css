@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  @media screen and (max-width:350px) {
+    .crousel{
+      overflow: hidden;
+    }
+  }
+  @media screen and (max-width:350px) {
+    .crousel{
+min-height: 40vh !important;
+max-height: 100vh !important;
+    }
+    .box{
+      border: none !important;
+      min-height: 400px !important;
+      max-height: 400px !important;
+    }
+  }
+  .crousel{
+    overflow: hidden;
+    padding: 5rem;
+    background-color: #000;
+    color: white;
+    min-height: 80vh;
+    max-height: 82vh;
+    width: 100%;
+  }
+  .box{
+    background-color: gray;
+    min-height: 500px;
+    max-height: 300px;
+    border: 2px solid white;
+  }
+  .box h3{
+    text-align: center;
+  }
+  .slick-slide div{
+    margin: 0 1rem;
+  }
+  .slick-next{
+    right: -50px !important;
+  }
+  .slick-dots li.slick-active button::before{
+    color: #f5b70a !important;
+  }
+  .slick-dots li button::before{
+    color: white  !important;
+    font-size: 1rem !important;
+    top: 2rem !important;
+  }
+  
