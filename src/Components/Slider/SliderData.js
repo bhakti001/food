@@ -39,20 +39,8 @@ export const slidercar = [
       rating: "⭐⭐⭐",
     },
   
-    {
-      key: "6",
-      img: "3.png",
-      title: "Clare Smyth",
-      text: "Talk about the pioneer of solid American dishes; Smyth is at the forefront.Her cooking style is unique which made  her peers.",
-      rating: "⭐⭐⭐",
-    },
+ 
   
-    {
-      key: "7",
-      img: "man02.jpg",
-      title: "Martha Stewart",
-      text: "the first female executive chef at the White House. She is a Filipino-American trained chef who majors in food technology. ",
-      rating: "⭐⭐⭐",
-    },
+ 
   ];
   

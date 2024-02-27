@@ -13,10 +13,10 @@ function Footer1() {
             <div className="sb__footer-links_div" >
                 <img src='restaurant-logo.png' alt='' style={{marginTop:'-50px'}}></img>
                 <div className='sb__footer-active compo' >
-              <p>The purpose of a website footer is to help visitors by 
-                  adding information and navigation options at the bottom of web pages.</p>
-                {/* <p>Health plan</p>
-                <p>individual</p> */}
+              <p>The purpose of a website  is to help to by food online and make her choice
+              , it save time. 
+                  </p>
+            
                 </div>
             </div>
     
@@ -31,20 +31,20 @@ function Footer1() {
             <div className="sb__footer-links_div">
                 <h4>partners</h4>
                 <div className='sb__footer-active'>
-                <Link to="/empo"><p>Swing tech</p></Link>
+                <Link to="/"><p>Swing tech</p></Link>
                 </div>
             </div>
             <div className="sb__footer-links_div">
                 <h4>company</h4>
                 <div className='sb__footer-active'>
 
-                <Link href="/">
+                <Link href="/about">
                     <p> about</p>
                 </Link>
-                <Link to="/">
-                    <p> press</p>
+                <Link to="/menu">
+                    <p> Menu</p>
                 </Link>
-                <Link to="/">
+                <Link to="/contact">
                     <p>  contact</p>
                 </Link>
                 <Link to="/">
@@ -67,16 +67,10 @@ function Footer1() {
 <div className="sb__footer-below">
     <div className="sb__footer-copyright">
         <p className='pfoot'>
-            {new Date().getFullYear()}CodeInn. All right reserved.
+            {new Date().getFullYear()}. All right reserved.
         </p>
     </div>
-    {/* <div className="sb__footer-below-links">
-    <div className='hover'>
-        <Link to="/"><div><p>Security</p></div></Link>
-        <Link to="/"><div><p>Privacy</p></div></Link>
-        <Link to="/"><div><p>Terms & Conditions</p></div></Link>
-        <Link to="/"><div><p>Cookie Declaration </p></div></Link></div>
-    </div> */}
+
 </div>
     </div>
 </div>

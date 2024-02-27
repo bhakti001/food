@@ -13,8 +13,6 @@ function Navbar3() {
       <nav className="navbar header">
         <div className="navbar-container container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            {/* <img src="logo-removebg-preview.png" alt="" /> */} 
-            {/* <img src="logoipsum-225.svg" style={{width:'40px'}} alt="" /> */}
             <img src="restaurant-logo.png"  alt="" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -25,22 +23,18 @@ function Navbar3() {
               <NavLink to="/" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "") } onClick={closeMobileMenu} >
                 Home
               </NavLink>
+            </li><li className="nav-item">
+              <NavLink to="/menu"
+               className={({ isActive }) =>"nav-links" + (isActive ? " activated" : "")} onClick={closeMobileMenu}>Menu
+              </NavLink>
             </li>
             <li className="nav-item"  >
                 <NavLink to="/about"            
                   className={({ isActive }) =>  "nav-links" + (isActive ? " activated" : "")} onClick={closeMobileMenu}>About
                 </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink to="/menu"
-               className={({ isActive }) =>"nav-links" + (isActive ? " activated" : "")} onClick={closeMobileMenu}>Menu
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/Recipes"
-                className={({ isActive }) =>"nav-links" + (isActive ? " activated" : "")} onClick={closeMobileMenu}>Recipes
-              </NavLink>
-            </li>
+            
+        
             <li className="nav-item">
               <NavLink to="/contact"
                 className={({ isActive }) =>"nav-links" + (isActive ? " activated" : "")} onClick={closeMobileMenu}>Contact
